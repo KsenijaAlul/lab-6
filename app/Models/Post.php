@@ -17,7 +17,7 @@ class Post extends Model
     {
         return [
             'slug' => [
-                'source' => 'name' // За Category, или 'title' за Post
+                'source' => 'name' 
             ]
         ];
     }
